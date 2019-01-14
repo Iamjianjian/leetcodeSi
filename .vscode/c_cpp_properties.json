@@ -3,26 +3,24 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceRoot}",
-                "/usr/include/c++/7",
-                "/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7",
-                "/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7/x86_64-redhat-linux",
-                "/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7/backward",
-                "/usr/lib/gcc/x86_64-redhat-linux/7/include"
+                "${workspaceFolder}/**",
+                "/usr/lib/gcc/x86_64-redhat-linux/8/",
+                "/usr/lib64/",
+                "/lib64/",
+                "/usr/lib64/",
+                "/usr/lib/",
+                "/lib/",
+                "/usr/lib/",
+                "/usr/libexec/gcc/x86_64-redhat-linux/8/",
+                "/usr/libexec/gcc/x86_64-redhat-linux/8/",
+                "/usr/libexec/gcc/x86_64-redhat-linux/",
+                "/usr/lib/gcc/x86_64-redhat-linux/",
+                "/usr/include/linux",
+                "/usr/lib/gcc/x86_64-redhat-linux/8/include"
             ],
             "defines": [],
-            "intelliSenseMode": "clang-x64",
-            "browse": {
-                "path": [
-                    "${workspaceRoot}"
-                ],
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
-            },
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c11",
-            "cppStandard": "c++17"
+            "compilerPath": "/usr/bin/gcc"
         }
     ],
-    "version": 3
+    "version": 4
 }
