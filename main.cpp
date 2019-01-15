@@ -1,12 +1,12 @@
 #include <iostream>
 #include <string>
-#include "LongestSubstringWithoutRepeatingCharacters.hpp"
+#include "LongestPalindromicSubstring.hpp"
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    string s="bbb";
+    string s="abcda";
     Solution aa;
-    aa.lengthOfLongestSubstring(s);
+    aa.longestPalindrome(s);
     return 0;
 }
