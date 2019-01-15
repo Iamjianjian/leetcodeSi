@@ -6,11 +6,15 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "msbuild",
+            "command": "g++",
             "args": [
                 // Ask msbuild to generate full paths for file names.
-                "/property:GenerateFullPaths=true",
-                "/t:build"
+                // "/property:GenerateFullPaths=true",
+                // "/t:build"
+                "-g",
+                "-o",
+                "a",
+                "main.cpp"
             ],
             "group": "build",
             "presentation": {
