@@ -4,19 +4,11 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/lib/gcc/x86_64-redhat-linux/8/",
-                "/usr/lib64/",
-                "/lib64/",
-                "/usr/lib64/",
-                "/usr/lib/",
-                "/lib/",
-                "/usr/lib/",
-                "/usr/libexec/gcc/x86_64-redhat-linux/8/",
-                "/usr/libexec/gcc/x86_64-redhat-linux/8/",
-                "/usr/libexec/gcc/x86_64-redhat-linux/",
-                "/usr/lib/gcc/x86_64-redhat-linux/",
-                "/usr/include/linux",
-                "/usr/lib/gcc/x86_64-redhat-linux/8/include"
+                "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8",
+                "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux",
+                "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward",
+                "/usr/lib/gcc/x86_64-redhat-linux/8/include",
+                "/usr/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc"
