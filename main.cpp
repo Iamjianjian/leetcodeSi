@@ -1,12 +1,13 @@
 #include <iostream>
 #include <string>
-#include "LongestPalindromicSubstring.hpp"
+#include "ZigZagConversion.hpp"
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    string s="abcda";
-    Solution aa;
-    aa.longestPalindrome(s);
+    // string s="abcda";
+    char s[]="PAYPALISHIRING";
+    // Solution aa;
+    convert(s,3);
     return 0;
 }
