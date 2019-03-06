@@ -3,7 +3,7 @@
 #include<stdio.h>
 char* convert(char* s, int numRows) {
     int l=strlen(s);
-    if(l==0||l<=numRows)
+    if(l==0||l<=numRows||numRows<=1)
     {
         return s;
     }

@@ -1,13 +1,16 @@
 #include <iostream>
 #include <string>
-#include "ZigZagConversion.hpp"
+#include <vector>
+#include <algorithm>
+#include "3sum.cpp"
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    // string s="abcda";
-    char s[]="PAYPALISHIRING";
-    // Solution aa;
-    convert(s,3);
+    int aa[]={-1,0,1,2,-1,-4};
+    vector<int>a(7);
+    copy(aa,aa+6,a.begin());
+    Solution c;
+    c.threeSum(a);
     return 0;
 }
