@@ -8,9 +8,6 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                // Ask msbuild to generate full paths for file names.
-                // "/property:GenerateFullPaths=true",
-                // "/t:build"
                 "-g",
                 "-o",
                 "a",
@@ -18,11 +15,17 @@
             ],
             "group": "build",
             "presentation": {
-                // Reveal the output only if unrecognized errors occur.
                 "reveal": "silent"
             },
-            // Use the standard MS compiler pattern to detect errors, warnings and infos
             "problemMatcher": "$msCompile"
+        },
+        {
+            "type": "shell",
+            "label": "g++ build and run",
+            "command": "/home/jianjian/bin/cppBuildAndRun.sh",
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }

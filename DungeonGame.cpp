@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/dungeon-game/
 #include <vector>
 using namespace std;
 class Solution {
@@ -12,7 +13,7 @@ public:
         int results[row][col];
         if (dungeon[row-1][col-1]>=0)
         {
-            results[row-1][col-1]=0;    
+            results[row-1][col-1]=0;
         }
         else
         {
